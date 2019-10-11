@@ -371,7 +371,7 @@ header
 .header-area .main-nav {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
-  min-height: 80px;
+  min-height: 60px;
   background: #fff;
 }
 
@@ -528,15 +528,15 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 50px;
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .header-area.header-sticky .nav {
-  margin-top: 20px !important;
+  margin-top: 10px !important;
 }
 
 .header-area.header-sticky .nav li a {
