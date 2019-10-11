@@ -89,7 +89,7 @@
 	if($('.count-item').length){
 		$('.count-item strong').counterUp({
 			delay: 10,
-			time: 1000
+			time: 870
 		});
 	}
 

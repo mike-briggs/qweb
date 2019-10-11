@@ -390,6 +390,8 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  height:2em;
+  width:auto;
 }
 
 .header-area .main-nav .nav {
@@ -641,6 +643,12 @@ welcome
   width: 100%;
 }
 
+.welcome-area .header-text img {
+  width:10em;
+  height:auto;
+  padding-bottom: 3em;
+}
+
 .welcome-area .header-text h1 {
   font-weight: 400;
   font-size: 36px;
@@ -774,6 +782,11 @@ features
 .features-small-item .icon i {
   font-size: 18px;
   color: #fff;
+}
+
+.features-small-item .icon i img {
+  width: 40px;
+  height: auto;
 }
 
 .features-small-item .features-title {
@@ -1002,8 +1015,8 @@ parallax & home seperator
   position: absolute;
   width: 140%;
   height: 140%;
-  opacity: .90;
-  background-image: url(../images/home.png);
+  opacity: 1;
+  background-image: url(../images/events.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
